@@ -1,6 +1,7 @@
 {
     "name": "nosto/nosto-magento-extension",
     "description": "Nosto Magento extension",
+    "type":"magento-module",
     "license": "OSL v3.0",
     "repositories": [
         {
@@ -9,6 +10,7 @@
         }
     ],
     "require": {
-        "nosto/php-sdk": "1.13.0"
+        "nosto/php-sdk": "1.13.0",
+        "magento-hackathon/magento-composer-installer":"*"
     }
 }
